@@ -29,9 +29,9 @@ app.use(
 );
 
 const swaggerFile = require("./swagger/swagger_output.json");
-app.get("/", (req, res) => {
-  res.redirect("/auth");
-});
+// app.get("/", (req, res) => {
+//   res.redirect("/auth");
+// });
 app.use(
   "/doc",
   authDocProducao,
