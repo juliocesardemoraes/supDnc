@@ -7,7 +7,7 @@ const swaggerUi = require("swagger-ui-express");
 const swaggerOptions = { customCssUrl: "/swagger-ui.css" };
 const routes = require("./src/routes");
 const authDocProducao = require("./src/midlewares/authDoc");
-const session = require("express-session");
+const session = require("cookie-session");
 const app = express();
 require("dotenv").config();
 
