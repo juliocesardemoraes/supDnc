@@ -1,6 +1,7 @@
 {
   "version": 2,
   "buildCommand": "npm run autodoc",
+  "developmentCommand": "npm run start",
   "routes": [
     {
       "src": "/(.*)",
