@@ -27,27 +27,23 @@ app.use(
     saveUninitialized: true,
   })
 );
-// documentação de rota do swagger
-if (process.env.NODE_ENV !== "test") {
-  const swaggerFile = require("./swagger/swagger_output.json");
-  app.get("/", (req, res) => {
-    res.redirect("/auth");
-  });
-  app.use(
-    "/doc",
-    authDocProducao,
-    swaggerUi.serve,
-    swaggerUi.setup(swaggerFile, swaggerOptions)
-  );
-}
+
+const swaggerFile = require("./swagger/swagger_output.json");
+app.get("/", (req, res) => {
+  res.redirect("/auth");
+});
+app.use(
+  "/doc",
+  authDocProducao,
+  swaggerUi.serve,
+  swaggerUi.setup(swaggerFile, swaggerOptions)
+);
 
 // restante das rotas
 routes(app);
 
 // inicialização do servidor
-if (process.env.NODE_ENV !== "test") {
-  const PORT = process.env.PORT || 4000;
-  app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
-}
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
 
 module.exports = app;
