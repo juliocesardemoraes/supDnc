@@ -19,7 +19,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-// Use sessions to track authenticated users
 app.use(
   session({
     secret: "your-secret-key",
@@ -30,9 +29,9 @@ app.use(
 
 const swaggerFile = require("./swagger/swagger_output.json");
 
-// app.get("/", (req, res) => {
-//   res.redirect("/auth");
-// });
+app.get("/", (req, res) => {
+  res.redirect("/auth");
+});
 
 app.use(
   "/doc",
