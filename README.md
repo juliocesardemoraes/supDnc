@@ -1,29 +1,68 @@
-# BoardTasks API
+<div align="center">
+	<h1>Listagem de tarefas</h1>
+	<br>
+	<p align="center">
+		<a href="https://www.linkedin.com/in/felipejsborges/">
+		  <img alt="made by" src="https://img.shields.io/badge/made%20by-Felipe%20Borges-orange">
+		</a>
+		<a href="https://github.com/felipejsborges/pokemon-challenge/commits/master">
+		  <img alt="last commit" src="https://img.shields.io/github/last-commit/felipejsborges/felipejsborges">
+		</a>
+	</p>
+</div>
 
-API do BoardTasks é uma aplicação que fornece endpoints para gerenciamento de tarefas em um quadro Kanban.<br>
-Essa é a parte do back do projeto, acesse também a parte do front.
+<hr>
 
-## Instalação
+<h4>Descrição 📄</h4>
 
-Certifique-se de ter [Node.js](https://nodejs.org/) e NPM instalado. Em seguida, siga os passos abaixo:
+Aplicação desenvolvida para listar e visualizar tarefas, com o objetivo de colocar em práticas a biblioteca de desenvolvimento de interfaces React JS.
 
-- Faça o clone do repositório;
-- Faça a instalação de todas as dependências;
-- Copie o arquivo EXEMPLO .env que está na pasta raiz do projeto e renomeá-lo .env para definiar as variáveis;
-- Execute o comando 'NPM RUN DEV'.
+<hr>
 
-## Ambientes
-A API está configurada para ser executada em dois ambientes:
+<h4>Tecnologias 🚀</h4>
 
-- Ambiente de desenvolvimento (localhost): http://localhost:4000/
-- Ambiente de produção: https://boardtasks-back.vercel.app
+- Javascript
+- React JS
+- Vite
+- React Router Dom
+- Sass
+- JSON Server
 
-## Documentação
-A documentação da API foi gerada automaticamente usando <strong> Swagger </strong>.
+<hr>
 
-## Contribuição
-Se você quiser contribuir para o desenvolvimento da API do BoardTasks, siga os passos abaixo:
+<h4>Como rodar no seu computador🖥️</h4>
 
-### Faça o fork do repositório.
+- Instale o [Node.js](https://nodejs.org/en/download/) e o [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Então:
 
-Crie uma branch para a sua feature/correção.
+```
+# clone esse repositório
+$ git clone https://github.com/felipejsborges/<repo_name>.git
+
+# acesse a pasta do projeto
+$ cd <repo_name>
+
+# instale as dependências
+$ npm install
+
+# rode o server
+$ npm run server
+
+# abra outro terminal e rode o projeto
+$ npm run dev
+```
+- [Acesse a aplicação](http://localhost:5173)
+
+<hr>
+
+by Felipe Borges<br>
+<div>
+	<a href="https://www.linkedin.com/in/felipejsborges">
+		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/linkedin.svg" alt="LinkedIn">
+	</a>
+	<a href="https://wa.me/+55012996477129">
+		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/whatsapp.svg" alt="WhatsApp">
+	</a>
+	<a href="mailto:felipejsborges@outlook.com">
+		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/mail.svg" alt="E-mail">
+	</a>
+</div>
