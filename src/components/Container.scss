@@ -1,7 +1,7 @@
-@use '../Sass/variables' as*;
+@use "../Sass/variables" as *;
 
-.container{
+.container {
   background-color: $main-background;
-  height: 34.7em;
+  min-height: 100vh;
   padding-top: 4.5em;
 }
