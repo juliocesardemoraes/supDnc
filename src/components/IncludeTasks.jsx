@@ -23,13 +23,12 @@ const IncludeTasks = ({ value, btn, setItems }) => {
   //  }
 
   const handleChange = (e) => {
-    setTask({ name: e.target.value });
+    setTask({ title: e.target.value });
     console.log(task);
   };
 
   const submit = (e) => {
     e.preventDefault();
-    console.log(`Nome da Tarefa é ${task}`);
     setItems((prev) => {
       return [...prev, task];
     });

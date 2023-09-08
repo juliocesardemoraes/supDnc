@@ -5,13 +5,15 @@ import "./index.scss";
 import IncludeTasks from "../../components/IncludeTasks";
 import { useState } from "react";
 
+import db from "../../../db.json";
+
 const Tasks = ({}) => {
   //fazer uma função para fecth incluir Table cada vez que entrar um novo elemento
   // fetch('http://localhost:3000/tasks').then((resp)=> resp.json()).then((dados)=>{
   //   console.log(dados)
   // })
 
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState([...db.ex]);
 
   return (
     <div className="tasks">

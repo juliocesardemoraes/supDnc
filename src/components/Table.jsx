@@ -14,7 +14,7 @@ const Table = ({ name_task, type, items = [] }) => {
         {items.map((item, index) => {
           return (
             <tr key={index}>
-              <td className="table_pg">{item.name}</td>
+              <td className="table_pg">{item.title}</td>
               <td>
                 <input type={type} />
               </td>
