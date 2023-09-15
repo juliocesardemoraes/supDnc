@@ -1,4 +1,7 @@
-# THIS IS AN TICKET SOLVING REPO FOR THE DNC SCHOOL.
+# SUP DNC
+
+## Description
+THIS IS AN TICKET SOLVING REPO FOR THE DNC SCHOOL.
 
 ## How it works
 
@@ -6,4 +9,4 @@
 - I help him by showing ways to solve it
 - I create a branch with the project or student name
 
-## That's it
+That's it
