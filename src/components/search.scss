@@ -1,0 +1,15 @@
+.search {
+  width: 70vw;
+  height: 10vh;
+  background: #000;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+
+  input {
+    all: unset;
+    color: #fff;
+    font-family: Outfit;
+    padding-left: 2em;
+  }
+}
