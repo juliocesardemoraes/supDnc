@@ -1,0 +1,16 @@
+
+body {font-family: Inter;
+  font-weight: 100px;
+  margin: 0;
+ 
+
+  background-image: url(image/background.svg);
+  background-size: 100%;
+  color: white;
+}
+h1{
+  font-size: 55px;
+}
+
+
+

@@ -1,0 +1,33 @@
+.Card{
+   display: flex;
+   justify-content: space-around;
+   margin-right: 300px;
+}
+
+.Card section{
+   background-color: #0d1e47bf;
+   padding: 20px;
+   border-radius: 20px;
+   width: 500px;
+}
+img:hover{
+   transform: translateY(-9px);
+   transition-duration: 0.5s;
+   cursor: pointer;
+}
+
+.Card2{
+   width: 550px;
+}
+
+p{
+   font-size: 20px;
+}
+
+h2{
+   font-weight: bold;
+   
+}
+img{
+   padding-top: 30px
+}

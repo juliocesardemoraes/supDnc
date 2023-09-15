@@ -1,0 +1,22 @@
+.Projects{
+   text-align: left;
+   margin-left: 280px
+
+}
+
+.Card4{
+   width:580px;
+   border-radius: 15px;
+   margin-left: -265px;
+   
+   
+}
+.Card5  {
+   width:570px;
+   margin-left: -600px;
+   border-radius: 15px;
+}
+.Card6{
+   display: flex;
+   justify-content: space-around;
+}
